@@ -83,7 +83,7 @@ hr{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
@@ -125,15 +125,17 @@ hr{
 .news-cards h3 {
   font-size: 25px;
   margin: 10px 0;
+  padding: 5px 5px 5px 5px;
 }
 
 .news-cards p {
-  font-size: 20px;
+  font-size: 17px;
   margin: 10px 0;
+  padding: 5px 5px 5px 5px;
 }
 
 .news-cards a {
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px 0;
   color: #f2f2f2;
   text-transform: uppercase;
@@ -175,4 +177,18 @@ hr{
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 20px 20px 20px 20px;
+}
+
+div.anuncio{
+  background: #eccf8dc5;
+  color:#5e3929;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+button.btn_menu{
+  width: 200px;
+  height: 28px;
+  background-image: url("imgs/botones_r1_c1.gif")
 }
