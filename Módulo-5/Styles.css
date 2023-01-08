@@ -187,8 +187,63 @@ div.anuncio{
   font-size: 10px;
 }
 
-button.btn_menu{
+
+
+a.btn_menu_sopa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 28px;
-  background-image: url("imgs/botones_r1_c1.gif")
+  background-image: url("imgs/sopa1.gif")
+}
+
+a.btn_menu_sopa:hover{
+  background-image: url("imgs/sopa2.gif")
+}
+
+a.btn_menu_pasta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 28px;
+  display: block;
+  background-color: rgb(150, 3, 3);
+  border-radius: 10px;
+  padding: 2px 1px 10px;
+  margin:10px 20px;
+  color:white;
+  
+  
+}
+
+a.btn_menu_pasta:hover{
+  background-color: rgb(150, 57, 3);
+}
+
+a.btn_menu_helado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 28px;
+  background-image: url("imgs/helado1.gif")
+}
+
+a.btn_menu_helado:hover{
+  background-image: url("imgs/helado2.gif")
+}
+
+a.btn_menu_pay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 28px;
+  background-image: url("imgs/pay1.gif")
+}
+
+a.btn_menu_pay:hover{
+  background-image: url("imgs/pay2.gif")
 }
